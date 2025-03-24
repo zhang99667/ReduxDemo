@@ -48,7 +48,6 @@ class MainActivity : AppCompatActivity() {
             store.dispatch(CounterAction.Reset)
         }
 
-
         // 订阅 store 的状态更新
         store.subscribe {
             // mainHandler.post {
